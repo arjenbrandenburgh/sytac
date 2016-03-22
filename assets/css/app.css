@@ -1,0 +1,60 @@
+@import "spinner.css";
+
+body {
+  background: #FF6626;
+  margin-top: 53px;
+}
+
+.sytacContainer {
+	background-color: #fff;
+	border: 5px solid #fff;
+	box-shadow: 0 0 0 5px #000 inset;
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+#headerContainer {
+	background-image: url("../img/header-right.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 90px;
+	padding: 15px 0px 15px 15px;
+	overflow: hidden;
+}
+
+#mainContainer {
+	padding: 40px;
+}
+
+#vehicleContainer {
+	padding: 15px;
+}
+
+#vehicleContainer .thumbnail {
+	border: none;
+	margin-bottom: 0px;
+	overflow: hidden;
+    background: transparent;
+}
+
+@media only screen and (min-width : 768px) {
+	#mainContainer {
+		min-height: 237px;
+	}
+
+	#vehicleContainer {
+		height: 337px;
+	}
+
+}
+
+#wrapper {
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	width: 50%;
+	height: 50%;
+	min-width: 400px;
+	max-width: 400px;
+}
